@@ -2,15 +2,19 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark-subtle">
+    <footer className="bg-body-tertiary">
       <div className="container">
         <div className="row py-5">
-          <div className="col-md-3">
-            <h4>AUTOR</h4>
-            <p>2023 - Lucas Bernardo Velloso</p>
+          <div className="col-md">
+            <h4>Lucas Bernardo Velloso</h4>
+            <p>2023 - Todos os direitos reservados</p>
           </div>
-          <div className="col-md-3">Coluna 3</div>
-          <div className="col-md-3">Coluna 4</div>
+          <div className="col-md">
+            <h4>Sobre o projeto</h4>
+            <a href="">
+              <li className="nav-link"> Meu Github</li>
+            </a>
+          </div>
         </div>
       </div>
     </footer>

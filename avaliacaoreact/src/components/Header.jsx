@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            TELINHA
+            Logo
           </Link>
           <button
             className="navbar-toggler"
@@ -25,13 +25,13 @@ export default function Header() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/" className="nav-link">
-                  Página Inicial 
+                <Link to="/HomeScreen" className="nav-link">
+                  \Tela Inicial
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contato" className="nav-link">
-                  Contato
+                <Link to="/ContatoScreen" className="nav-link">
+                  Meu Contato
                 </Link>
               </li>
             </ul>
