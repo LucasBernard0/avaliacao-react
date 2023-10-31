@@ -9,7 +9,7 @@ export default function RouterRoot() {
       <Routes>
         <Route element={<Body />} path="/">
           <Route element={<HomeScreen />} path="/" />
-          <Route element={<ContatoScreen />} path="/contato" />
+          <Route element={<ContatoScreen />} path="/ContatoScreen" />
         </Route>
       </Routes>
     </BrowserRouter>
